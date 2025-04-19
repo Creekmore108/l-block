@@ -1,11 +1,11 @@
 <?php
 
-namespace TimGavin\LaravelBlock;
+namespace creekmore108\LBlock;
 
 use Carbon\Carbon;
-use TimGavin\LaravelBlock\Models\Block;
+use creekmore108\LBlock\Models\Block;
 
-trait LaravelBlock
+trait LBlock
 {
     /**
      * Block the given user.
