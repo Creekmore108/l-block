@@ -9,7 +9,7 @@
             "homepage": "https://github.com/creekmore108"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "homepage": "https://github.com/creekmore108/l-block",
     "keywords": [
         "Laravel",
