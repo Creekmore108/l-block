@@ -1,9 +1,9 @@
 <?php
 
-namespace creekmore108\LBlock\Tests;
+namespace Creekmore108\LBlock\Tests;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use creekmore108\LBlock\Models\User;
+use Creekmore108\LBlock\Models\User;
 
 class BlockTest extends TestCase
 {

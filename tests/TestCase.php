@@ -1,8 +1,8 @@
 <?php
 
-namespace creekmore108\LBlock\Tests;
+namespace Creekmore108\LBlock\Tests;
 
-use creekmore108\LBlock\LBlockServiceProvider;
+use Creekmore108\LBlock\LBlockServiceProvider;
 
 abstract class TestCase extends \Orchestra\Testbench\TestCase
 {
