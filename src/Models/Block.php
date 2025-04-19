@@ -1,6 +1,6 @@
 <?php
 
-namespace creekmore108\LBlock\Models;
+namespace Creekmore108\LBlock\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

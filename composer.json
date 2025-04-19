@@ -29,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "creekmore108\\LBlock\\Tests\\": "tests"
+            "Creekmore108\\LBlock\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -39,10 +39,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "creekmore108\\LBlock\\LBlockServiceProvider"
+                "Creekmore108\\LBlock\\LBlockServiceProvider"
             ],
             "aliases": {
-                "LBlock": "creekmore108\\LBlock\\Facades\\LBlock"
+                "LBlock": "Creekmore108\\LBlock\\Facades\\LBlock"
             }
         }
     }

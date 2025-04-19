@@ -1,6 +1,6 @@
 <?php
 
-namespace creekmore108\LBlock;
+namespace Creekmore108\LBlock;
 
 use Illuminate\Support\ServiceProvider;
 

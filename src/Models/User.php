@@ -1,9 +1,9 @@
 <?php
 
-namespace creekmore108\LBlock\Models;
+namespace Creekmore108\LBlock\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use creekmore108\LBlock\LBlock;
+use Creekmore108\LBlock\LBlock;
 
 class User extends Authenticatable
 {

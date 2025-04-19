@@ -1,9 +1,9 @@
 <?php
 
-namespace creekmore108\LBlock;
+namespace Creekmore108\LBlock;
 
 use Carbon\Carbon;
-use creekmore108\LBlock\Models\Block;
+use Creekmore108\LBlock\Models\Block;
 
 trait LBlock
 {
