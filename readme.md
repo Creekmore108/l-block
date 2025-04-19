@@ -121,19 +121,11 @@ Clears the Blockers cache
 auth()->user()->clearBlockersCache();
 ```
 
-## Change log
-
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
 ## Testing
 
 ``` bash
 $ composer test
 ```
-
-## Security
-
-If you discover any security related issues, please email creekmore108@gmail.com instead of using the issue tracker.
 
 ## License
 
