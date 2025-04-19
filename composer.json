@@ -1,0 +1,46 @@
+{
+    "name": "creekmore108/l-block",
+    "description": "A User can block another User",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Creekmore",
+            "email": "creekmore108@gmail.com",
+            "homepage": "https://github.com/creekmore108"
+        }
+    ],
+    "homepage": "https://github.com/creekmore108/l-block",
+    "keywords": [
+        "Laravel",
+        "LBlock",
+        "Block users"
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creekmore108\\LBlock\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "creekmore108\\LBlock\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-f": "vendor/bin/phpunit --filter"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "creekmore108\\LBlock\\LBlockServiceProvider"
+            ],
+            "aliases": {
+                "LBlock": "creekmore108\\LBlock\\Facades\\LBlock"
+            }
+        }
+    }
+}
